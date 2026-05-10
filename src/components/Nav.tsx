@@ -59,7 +59,7 @@ export const Nav = () => {
               Contacto
             </a>
           ) : (
-            <Link to="/contacto" onClick={() => setOpen(false)}>
+            <Link to="/" onClick={() => setOpen(false)}>
               Contacto
             </Link>
           )}

@@ -5,7 +5,7 @@ export const About = () => {
       <h2 className="text-3xl font-bold">Sobre mí</h2>
 
       <p className="mt-4 text-gray-600">
-        Soy profesor de matemáticas con más de 30 años de experiencia dando clases particulares a estudiantes de secundaria y universidad.
+        Soy profesor de matemáticas con más de 30 años de experiencia dando clases particulares a estudiantes de primaria y secundaria.
       </p>
 
       <p className="mt-4 text-gray-600">
