@@ -41,10 +41,13 @@ export const Hero = () => {
       </p>
 
       {/* CTA */}
-      <button className="flex items-center gap-2.5 px-8 py-3 text-xs tracking-widest uppercase border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors duration-200">
+      <a href="#contacto">
+        <button className="flex items-center gap-2.5 px-8 py-3 text-xs tracking-widest uppercase border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors duration-200">
         Contactar
         <ArrowRight size={14} />
       </button>
+      </a>
+      
 
     </section>
   )

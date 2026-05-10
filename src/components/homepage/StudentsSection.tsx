@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 
 import img1 from "../../assets/AlumnosEstudiando1.jpg";
 import img2 from "../../assets/AlumnosEstudiando2.jpg";
+import img3 from "../../assets/AlumnosEstudiando3.jpg";
+import img4 from "../../assets/AlumnosEstudiando4.jpg";
 
 export default function StudentsSection() {
-  const images = [img1, img2];
+  const images = [img1, img2, img3,img4];
 
   const [index, setIndex] = useState(0);
 
