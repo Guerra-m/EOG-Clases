@@ -33,7 +33,7 @@ export const Nav = () => {
               Contacto
             </a>
           ) : (
-            <Link to="/contacto" className="hover:text-gray-200">
+            <Link to="/" className="hover:text-gray-200">
               Contacto
             </Link>
           )}
