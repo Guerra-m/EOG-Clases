@@ -29,25 +29,29 @@ export const Hero = () => {
       </p>
 
       {/* Título */}
-      <h1 className="font-serif text-5xl font-bold leading-tight text-gray-900 max-w-xl">
-        Matemáticas
+      <h1 className="font-serif text-5xl font-bold leading-tight text-gray-900 max-w-2xl">
+        Clases de Matemática
         <br />
-        <em className="font-normal text-gray-400">simples y claras</em>
+        <em className="font-normal text-gray-400">
+          personalizadas
+        </em>
       </h1>
 
       {/* Subtítulo */}
-      <p className="mt-5 mb-10 text-base font-light text-gray-500 max-w-sm leading-relaxed">
-        Aprendé a tu ritmo, con explicaciones que realmente tienen sentido.
+      <p className="mt-5 mb-10 text-base font-light text-gray-500 max-w-lg leading-relaxed">
+        Clases particulares de matemática para primaria, secundaria e ingreso universitario.
+        Explicaciones claras, ejercicios prácticos y apoyo personalizado.
       </p>
+      
 
       {/* CTA */}
       <a href="#contacto">
         <button className="flex items-center gap-2.5 px-8 py-3 text-xs tracking-widest uppercase border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition-colors duration-200">
-        Contactar
-        <ArrowRight size={14} />
-      </button>
+          Contactar
+          <ArrowRight size={14} />
+        </button>
       </a>
-      
+
 
     </section>
   )

@@ -1,8 +1,8 @@
 const videos = [
-  {id: 1, src: "/videos/Video2EOG.mp4", titulo: "Un óptimo comienzo de clases"},
-  { id: 2, src: "/videos/Video4EOG.mp4", titulo: "¿Te cuesta matemáticas? Probá estas clases" },
-  { id: 2, src: "/videos/videoMatematicaJulio.mp4", titulo: "Aprobá en Julio" },
-  
+  {id: 1, src: "/videos/matematicasjim.mp4", titulo: "Aproba en febrero aún estás a tiempo"},
+  {id: 2, src: "/videos/Video2EOG.mp4", titulo: "Un óptimo comienzo de clases"},
+  {id: 3, src: "/videos/Video4EOG.mp4", titulo: "¿Te cuesta matemáticas? Probá estas clases" },
+  {id: 4, src: "/videos/videoMatematicaJulio.mp4", titulo: "Aprobá en Julio" }
 ];
 
 export default function VideosPage() {
