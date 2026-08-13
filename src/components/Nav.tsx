@@ -12,9 +12,12 @@ export const Nav = () => {
       <div className="flex justify-between items-center px-6 py-4">
 
         {/* Logo */}
-        <div className="font-bold text-xl">
+        <a
+          href="/"
+          className="font-bold text-xl hover:text-gray-200 transition-colors"
+        >
           EOG-Clases
-        </div>
+        </a>
 
         {/* Botón hamburguesa */}
         <button

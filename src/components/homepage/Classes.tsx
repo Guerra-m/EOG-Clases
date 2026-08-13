@@ -1,6 +1,6 @@
 export const Classes = () => {
   return (
-    <section className="p-10 bg-gray-100 text-center">
+    <section className="p-10 bg-gray-100 text-center" id="clases">
 
       <h2 className="text-3xl font-bold">
         Clases disponibles

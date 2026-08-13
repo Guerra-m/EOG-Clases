@@ -73,7 +73,7 @@ export const Location = () => {
           </div>
 
           {/* Google Maps */}
-          <div className="min-h-[400px]">
+          <div className="min-h-100">
             <iframe
               src={mapsEmbedUrl}
               width="100%"
