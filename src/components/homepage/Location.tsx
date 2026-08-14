@@ -38,7 +38,7 @@ export const Location = () => {
                 <div>
                   <p className="font-medium">Dirección</p>
                   <p className="mt-1 text-gray-600">
-                    Av. Ejemplo 1234
+                    Adolfo Calle 7678, Rodeo de la Cruz, Guaymallén
                     <br />
                     Mendoza, Argentina
                   </p>
