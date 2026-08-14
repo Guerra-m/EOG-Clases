@@ -1,7 +1,18 @@
 @import "tailwindcss";
+
+/* =====================================================
+   SCROLL
+===================================================== */
+
 html {
   scroll-behavior: smooth;
 }
+
+
+/* =====================================================
+   ENTRADA DE ELEMENTOS
+===================================================== */
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -14,6 +25,11 @@ html {
   }
 }
 
+
+/* =====================================================
+   ELEMENTOS FLOTANTES
+===================================================== */
+
 @keyframes float {
   0%,
   100% {
@@ -25,14 +41,148 @@ html {
   }
 }
 
+
+/* =====================================================
+   CRECIMIENTO DE LÍNEAS
+===================================================== */
+
 @keyframes lineGrow {
+  from {
+    transform: scaleX(0);
+  }
+
   to {
     transform: scaleX(1);
   }
 }
 
+
+/* =====================================================
+   DIBUJAR PATH
+===================================================== */
+
 @keyframes drawPath {
+  from {
+    stroke-dashoffset: 1;
+  }
+
   to {
     stroke-dashoffset: 0;
   }
+}
+
+
+/* =====================================================
+   TRAYECTORIA DEL ∫
+===================================================== */
+
+@keyframes trajectory {
+
+  0% {
+    stroke-dashoffset: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -1;
+  }
+
+}
+
+
+/* =====================================================
+   PARÁBOLA
+===================================================== */
+
+@keyframes parabolaTrace {
+
+  0% {
+    stroke-dashoffset: 1;
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -1;
+    opacity: 0;
+  }
+
+}
+
+
+/* =====================================================
+   FUNCIÓN SENO
+===================================================== */
+
+@keyframes sineTrace {
+
+  0% {
+    stroke-dashoffset: 1;
+    opacity: 0.15;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -1;
+    opacity: 0.15;
+  }
+
+}
+
+
+/* =====================================================
+   SVG
+===================================================== */
+
+svg {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+svg path,
+svg circle,
+svg text {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+/* =====================================================
+   REDUCIR ANIMACIONES
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
 }
