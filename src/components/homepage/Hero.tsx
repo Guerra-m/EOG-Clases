@@ -77,7 +77,7 @@ export const Hero = () => {
 
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-white">
+    <section className="relative min-h-[1300px] overflow-hidden bg-white">
 
       {/* =====================================================
           FONDO
@@ -313,7 +313,7 @@ export const Hero = () => {
 
             <div
               className="
-                mt-40
+                mt-2
                 flex
                 flex-wrap
                 items-center
@@ -331,7 +331,7 @@ export const Hero = () => {
                   items-center
                   gap-3
                   rounded-lg
-                  bg-gray-900
+                  bg-green-500
                   px-7
                   py-3.5
                   text-sm
@@ -340,7 +340,7 @@ export const Hero = () => {
                   transition-all
                   duration-300
                   hover:-translate-y-0.5
-                  hover:bg-gray-700
+                  hover:bg-green-900
                   hover:shadow-lg
                 "
               >
@@ -390,7 +390,7 @@ export const Hero = () => {
               pointer-events-none
               absolute
               left-1/2
-              top-[490px]
+              top-[720px]
               z-0
               h-[360px]
               w-full
